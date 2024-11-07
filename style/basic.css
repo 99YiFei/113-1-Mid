@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+html, body
+ {
+    font-size: 16px;
+    font-family: 'LXLXGW WenKai TC', 'Edu AU VIC WA NT Pre';
+    margin: auto;
+    background-color: #A78C7B;
+}
+
+header {
+    height: 10%;
+    padding: 1%;
+    background-color: #FFBE98;
+    text-align: center;
+    box-shadow: 42px 2px 0px #85677B;
+    border-bottom: 2px solid #85677B;
+}
+
+.list {
+    float: left;
+    width: 20vw;
+    height: 100vh;
+    padding: 2%;
+    background-color: #D8C8BD;
+    border-right: 2px solid #85677B;
+    box-shadow: 2px 0px 3px #85677B;
+}
