@@ -11,8 +11,7 @@ html, body
 }
 
 header {
-    height: 10%;
-    padding: 1%;
+    height: 8%;
     background-color: #FFBE98;
     text-align: center;
     box-shadow: 42px 2px 0px #85677B;
@@ -23,17 +22,44 @@ header {
     float: left;
     width: 20vw;
     height: 100vh;
-    padding: 2%;
+    padding: 1%;
     background-color: #D8C8BD;
     border-right: 2px solid #85677B;
     box-shadow: 2px 0px 3px #85677B;
 }
 
-.botton {
-    text-align: center;
+h2.title {
+    padding: 10% 1%;
+}
+
+ul {
+	display: block;
+	list-style: none;
+}
+
+ul li {
+	position: relative;
+	white-space: nowrap;
+}
+
+ul>li {
+	float: none;
+}
+
+ul a {
+	display: block;
+	color: #964F4C;
+    text-decoration: none;
+	padding: 15% 0;
+}
+
+ul a:hover {
+	/* 滑鼠滑入按鈕變色*/
+	background-color: #964F4C;
+    color: #FFBE98;
 }
 
 .footer {
     text-align: right;
-    border-top: 3px solid #A78C7B;
+    border-top: 3px solid #964F4C;
 }
