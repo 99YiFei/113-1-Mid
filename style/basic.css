@@ -29,8 +29,11 @@ header {
     box-shadow: 2px 0px 3px #85677B;
 }
 
+.botton {
+    text-align: center;
+}
+
 .footer {
     text-align: right;
-    box-shadow: 0px -2px 0px #85677B;
-    border-top: 0.5px solid #85677B;
+    border-top: 3px solid #A78C7B;
 }
