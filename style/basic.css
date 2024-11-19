@@ -88,3 +88,33 @@ h2.major {
 article p {
     text-decoration: none;
 }
+
+/*INPUT*/
+input {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+
+    color: #D8C8BD;
+    font-size: 1rem;
+    line-height: 1.65;
+    margin: 5% 0;
+}
+
+input[type="text"] {
+    -moz-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    -webkit-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    -ms-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+
+    color: inherit;
+    outline: 0;
+    width: 100%;
+    background-color: #D8C8BD;
+    border-radius: 4px;
+    border: solid 3px #964F4C;
+    display: block;
+    padding: 0 3%;
+    text-decoration: none;
+}
