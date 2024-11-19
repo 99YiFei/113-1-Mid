@@ -111,10 +111,20 @@ input[type="text"] {
     color: inherit;
     outline: 0;
     width: 100%;
-    background-color: #D8C8BD;
-    border-radius: 4px;
+    height: 2.75rem;
+    background-color: #964F4C;
     border: solid 3px #964F4C;
     display: block;
     padding: 0 3%;
     text-decoration: none;
+}
+
+input[type="text"] {
+    box-shadow: none;
+}
+
+input[type="text"]:focus {
+    background-color: #D8C8BD;
+    color: #964F4C;
+    box-shadow: 0 0 0 1px #85677B;
 }
