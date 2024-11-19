@@ -5,7 +5,8 @@
     width: 20vw;
     height: 100vh;
     padding: 1%;
-    background-color: #D8C8BD;
+    background-color: #FFBE98;
+    opacity: 80%;
     border-right: 2px solid #85677B;
     box-shadow: 2px 0px 3px #85677B;
 }
