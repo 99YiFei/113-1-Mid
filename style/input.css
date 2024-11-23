@@ -21,8 +21,8 @@ input {
     margin: 0 auto;
 }
 
-input[type="draw"],
-input[type="end"] {
+input[name="prevImg"],
+input[name="nextImg"] {
     appearance: none;
     -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
     -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -49,53 +49,53 @@ input[type="end"] {
 }
 
 
-input[type="draw"]:hover,
-input[type="end"]:hover {
+input[name="prevImg"]:hover,
+input[name="nextImg"]:hover {
     background-color: #85677B;
     opacity: 60%;
     text-shadow: 0 0 0 #2C333E !important;
 }
 
-input[type="draw"]:active,
-input[type="end"]:active {
+input[name="prevImg"]:active,
+input[name="nextImg"]:active {
     background-color: #85677B;
     opacity: 30%;
     text-shadow: 0 0 0 #2C333E !important;
 }
 
-input[type="draw"].icon:before,
-input[type="end"].icon:before {
+input[name="prevImg"].icon:before,
+input[name="nextImg"].icon:before {
     margin-right: 0.5em;
 }
 
-input[type="draw"].fit,
-input[type="end"].fit {
+input[name="prevImg"].fit,
+input[name="nextImg"].fit {
     width: 100%;
 }
 
-input[type="draw"].small,
-input[type="end"].small {
+input[name="prevImg"].small,
+input[name="nextImg"].small {
     font-size: 0.6rem;
     height: 2.0625rem;
     line-height: 2.0625rem;
 }
 
-input[type="draw"].primary,
-input[type="end"].primary {
+input[name="prevImg"].primary,
+input[name="nextImg"].primary {
     background-color: #D8C8BD;
     color: #85677B !important;
 }
 
-input[type="draw"].disabled,
-input[type="draw"]:disabled,
-input[type="end"].disabled,
-input[type="end"]:disabled {
+input[name="prevImg"].disabled,
+input[name="prevImg"]:disabled,
+input[name="nextImg"].disabled,
+input[name="nextImg"]:disabled {
     pointer-events: none;
     cursor: default;
     opacity: 0.25;
 }
 
-input[type="draw"],
-input[type="end"] {
+input[name="prevImg"],
+input[name="nextImg"] {
     line-height: calc(2.75rem - 2px);
 }

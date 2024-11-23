@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<!DOCtype html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta type="viewport" content="width=device-width, initial-scale=1.0">
     <title>SUDOKU_數獨遊戲</title>
     <link rel="stylesheet" type="text/css" href="../style/main.css">
     <!--GoogleFont-->
@@ -42,8 +42,8 @@
 
                 </div>
                 <div class="action">
-                    <button id="prevImg">PREV</button>
-                    <button id="nextImg">NEXT</button>
+                    <li><input name="prevImg" value="PREV" /></li>
+                    <li><input name="nextImg" value="NEXT" /></li>
                 </div>
             </article>
         </section>
@@ -54,10 +54,10 @@
             '../image/Pazzle1.png', '../image/Answer1.png'
         ])
 
-        const prevImg = document.getElementById('prevImg');
+        const prevImg = document.getElementsByName('prevImg');
         prevButton.addEventListener('click', () => carousel.displayPreviousImage());
 
-        const nextImg = document.getElementById('nextImg');
+        const nextImg = document.getElementsByName('nextImg');
         nextButton.addEventListener('click', () => carousel.displayNextImage());
     </script>
 </body>
