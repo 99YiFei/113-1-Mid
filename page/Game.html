@@ -12,6 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400&family=LXGW+WenKai+TC:wght@400&display=swap"
         rel="stylesheet">
+    <script src="../TS/carousel.ts" defer></script>
 </head>
 
 <body>
@@ -41,20 +42,24 @@
 
                 </div>
                 <div class="action">
-                    <span class="imgs"><img src="../image/easy.png" alt="" /></span>
-                    <li><input type="draw" value="PRE" /></li>
-                    <li><input type="end" value="POST" /></li>
+                    <button id="prevImg">PREV</button>
+                    <button id="nextImg">NEXT</button>
                 </div>
             </article>
-            <!--INTRO-->
-
         </section>
-
     </div>
-
     <!--script-->
-    <script src="game.java"></script>
+    <script>
+        const carousel = new Carousel([
+            '../image/Pazzle1.png', '../image/Answer1.png'
+        ])
 
+        const prevImg = document.getElementById('prevImg');
+        prevButton.addEventListener('click', () => carousel.displayPreviousImage());
+
+        const nextImg = document.getElementById('nextImg');
+        nextButton.addEventListener('click', () => carousel.displayNextImage());
+    </script>
 </body>
 
 </html>
