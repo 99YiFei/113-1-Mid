@@ -32,6 +32,7 @@ section {
     width: 80vw;
     float: right;
     padding: 3%;
+    overflow: inherit !important;
 }
 
 h2.major {
@@ -49,4 +50,24 @@ article {
 
 article p {
     text-decoration: none;
+}
+
+span {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+    text-align: center;
+}
+
+.imgs {
+    display: block;
+    width: 100%;
+}
+
+.imgs img {
+    margin: center !important;
+    height: 20rem;
+    width: auto;
 }
