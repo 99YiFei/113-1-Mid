@@ -12,11 +12,13 @@ input {
 }
 
 .action {
+    display: inline;
 }
 
 .action li {
-    display: inline-block;
     color: transparent;
+    display: table;
+    margin: 0 auto;
 }
 
 input[type="draw"],
