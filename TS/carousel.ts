@@ -7,14 +7,14 @@ class Carousel{
         this.currentIndex = 0;
     }
 
-    public displayNextIamge(): void {
+    public displayNextImage(): void {
         this.currentIndex = (this.currentIndex + 1) % this.images.length;
-        this.displayNextIamge();
+        this.displayNextImage();
     }
 
-    public displayPreviousIamge(): void {
+    public displayPreviousImage(): void {
         this.currentIndex = (this.currentIndex - 1 + this.images.length) % this.images.length;
-        this.displayPreviousIamge();
+        this.displayPreviousImage();
     }
     /*displayImage*/
     private displayCurrentImage(): void {

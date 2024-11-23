@@ -1,5 +1,5 @@
 {
-  "type": "carousel",
+  "name": "carousel",
   "version": "1.0.0",
   "main": "../page/Game.html",
   "scripts": {
