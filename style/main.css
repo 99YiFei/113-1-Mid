@@ -32,7 +32,6 @@ section {
     width: 80vw;
     float: right;
     padding: 3%;
-    overflow: inherit !important;
 }
 
 h2.major {
@@ -41,15 +40,24 @@ h2.major {
     border-bottom: 3px solid #85677B;
 }
 
+h3.submit {
+    padding: 1% 5%;
+    text-align: left;
+    text-size-adjust: 80%;
+    border-bottom: 2px solid #85677B;
+}
+
 article {
     padding: 2%;
     background-color: #D8C8BD;
     opacity: 80%;
-    box-shadow: 1px #85677B;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 article p {
     text-decoration: none;
+    margin: 2% auto;
 }
 
 span {
